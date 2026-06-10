@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://ninthhousestudios.github.io/adityas-live/sitemap.xml
