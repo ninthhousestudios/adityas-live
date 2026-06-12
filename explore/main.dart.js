@@ -46397,33 +46397,35 @@ s=e/2
 return A.mr(r,A.jE(A.dP(r,A.ef(A.QY(p,new A.jp(d,B.d6,r,B.ef),r,r),e,e),B.K,!1,r,r,r,r,r,r,r,r,r,r,r,r,r,r,new A.any(this,a),r,r,r,r,r,r),B.aw,r,new A.anz(this,a),new A.anA(this),r),r,r,q.a-s,r,q.b-s,r)},
 a5X(a,b,c,d){var s=null,r=A.aAN(a.d,b*0.41,c),q=b*0.06,p=q/2
 return A.mr(s,A.jE(A.ef(s,q,q),B.aw,s,new A.ans(this,a),new A.ant(this),s),s,s,r.a-p,s,r.b-p,s)},
-a5W(a,b,a0){var s,r,q,p,o,n,m,l,k,j,i,h,g=null,f=a*0.36*0.85,e=a*0.038,d=this.d,c=d!=null
-if(c){s=B.ci.k(0,d.b)
-r=s==null?g:s.b
+a5W(a,a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f=null,e=a*0.36*0.85,d=a*0.038,c=this.d,b=c!=null
+if(b){s=B.ci.k(0,c.b)
+r=s==null?f:s.b
 if(r==null)r="?"
-s=A.FZ(d.a)
-q=d.gXB()
-p=d.Q?" (R)":""
-o=d.f
-n=d.x
-m=A.b([s,q+" "+r+p,"Hora: "+o,"Trimsamsa: "+n],t.s)}else{l=this.e
-if(l!=null){s=B.ci.k(0,l.b)
-r=s==null?g:s.b
+s=A.FZ(c.a)
+q=c.gXB()
+p=c.Q?" (R)":""
+o=c.r
+o=o.length!==0?o[0].toUpperCase()+B.c.b8(o,1):""
+n=c.f
+m=c.x
+l=A.b([s,q+" "+r+p,"Soul Stance: "+o+" \u2022 "+n,"Being: "+m],t.s)}else{k=this.e
+if(k!=null){s=B.ci.k(0,k.b)
+r=s==null?f:s.b
 if(r==null)r="?"
-s=B.px[B.e.bR(l.a,0,12)]
-q=l.c
-k=B.d.bP(q)
-m=A.b(["Cusp "+s,""+k+"\xb0"+B.d.bP((q-k)*60)+"' "+r],t.s)}else{j=this.f
-if(j!=null){s=B.ci.k(0,j)
-s=s==null?g:s.b
-m=A.b([s==null?"?":s],t.s)}else m=A.b([],t.s)}}s=f*2
+s=B.px[B.e.bR(k.a,0,12)]
+q=k.c
+j=B.d.bP(q)
+l=A.b(["Cusp "+s,""+j+"\xb0"+B.d.bP((q-j)*60)+"' "+r],t.s)}else{i=this.f
+if(i!=null){s=B.ci.k(0,i)
+s=s==null?f:s.b
+l=A.b([s==null?"?":s],t.s)}else l=A.b([],t.s)}}s=e*2
 q=t.p
 p=A.b([],q)
-if(m.length===0)p.push(A.bL("Tap a planet to learn\nwhich being it activates",g,A.bS(g,g,a0.cB(0.35),g,g,g,g,g,g,g,g,e*0.9,B.cC,g,g,g,g,!0,g,g,g,g,g,g,g,g),B.c4))
+if(l.length===0)p.push(A.bL("Tap a planet to learn\nwhich being it activates",f,A.bS(f,f,a1.cB(0.35),f,f,f,f,f,f,f,f,d*0.9,B.cC,f,f,f,f,!0,f,f,f,f,f,f,f,f),B.c4))
 else{o=A.b([],q)
-for(n=m.length,i=0;i<m.length;m.length===n||(0,A.v)(m),++i){h=m[i]
-o.push(A.bL(h,g,new A.u(!0,a0,g,g,g,g,e,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g,g),B.c4))}if(c)B.b.D(o,A.b([A.ef(g,e*0.5,g),A.bL("tap to find out more",g,A.bS(g,g,a0.cB(0.4),g,g,g,g,g,g,g,g,e*0.8,B.cC,g,g,g,g,!0,g,g,g,g,g,g,g,g),B.c4)],q))
-B.b.D(p,o)}return A.mr(g,A.ef(A.fA(A.jj(p,B.U,B.T,B.ar),g,g),s,s),g,g,b.a-f,g,b.b-f,g)},
+for(n=l.length,h=0;h<l.length;l.length===n||(0,A.v)(l),++h){g=l[h]
+o.push(A.bL(g,f,new A.u(!0,a1,f,f,f,f,d,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f,f),B.c4))}if(b)B.b.D(o,A.b([A.ef(f,d*0.5,f),A.bL("tap to find out more",f,A.bS(f,f,a1.cB(0.4),f,f,f,f,f,f,f,f,d*0.8,B.cC,f,f,f,f,!0,f,f,f,f,f,f,f,f),B.c4)],q))
+B.b.D(p,o)}return A.mr(f,A.ef(A.fA(A.jj(p,B.U,B.T,B.ar),f,f),s,s),f,f,a0.a-e,f,a0.b-e,f)},
 a6a(a,b,c){var s,r,q,p,o,n,m,l=this,k=null,j=c*0.032,i=b.cB(0.6),h=l.ax
 h===$&&A.a()
 s=A.a2(h).h("aJ<1>")
